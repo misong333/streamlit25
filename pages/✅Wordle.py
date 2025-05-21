@@ -21,12 +21,12 @@ if "tries" not in st.session_state:
 
 st.title("🟩 Wordle Quiz")
 
-guess = st.text_input("5글자 단어를 입력하세요", max_chars=5)
+guess = st.text_input("Please enter a 5-letter word", max_chars=5)
 
 if st.button("제출"):
     guess = guess.lower()
     if len(guess) != 5:
-        st.warning("5글자 단어를 입력해주세요.")
+        st.warning("Please enter a 5-letter word.")
     else:
         result = compare_words(guess, ANSWER)
         st.session_state.tries.append((guess, result))

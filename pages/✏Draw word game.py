@@ -77,6 +77,3 @@ if st.button("🔁 Moving on to the next topic"):
     st.experimental_rerun()
 
 
-streamlit run draw_word_quiz.py
-pip install streamlit streamlit-drawable-canvas
-

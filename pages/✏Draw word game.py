@@ -68,9 +68,9 @@ if st.button("✅ Check the answer"):
 if st.session_state.feedback:
     st.info(st.session_state.feedback)
 
-st.markdown(f"### Current score: **{st.session_state.score}점**")
+st.markdown(f"### Current score: **{st.session_state.score}**")
 
-if st.button("🔁 Moving on to the next topic):
+if st.button("🔁 Moving on to the next topic"):
     st.session_state.current_word = random.choice(words)
     st.session_state.question_number += 1
     st.session_state.feedback = ""

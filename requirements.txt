@@ -1,3 +1,4 @@
 streamlit
 gtts
 pandas
+pip install streamlit streamlit-drawable-canvas

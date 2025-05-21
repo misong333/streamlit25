@@ -19,7 +19,7 @@ MAX_TRIES = 6
 if "tries" not in st.session_state:
     st.session_state.tries = []
 
-st.title("🟩 워들 퀴즈 with Streamlit")
+st.title("🟩 Wordle Quiz")
 
 guess = st.text_input("5글자 단어를 입력하세요", max_chars=5)
 

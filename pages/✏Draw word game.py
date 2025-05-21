@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 import random
-pip install streamlit streamlit-drawable-canvas
+pip! install streamlit streamlit-drawable-canvas
 
 # --------------------------
 # 단어 리스트

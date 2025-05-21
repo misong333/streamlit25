@@ -1,6 +1,7 @@
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 import random
+pip install streamlit streamlit-drawable-canvas
 
 # --------------------------
 # 단어 리스트
@@ -75,5 +76,7 @@ if st.button("🔁 Moving on to the next topic"):
     st.session_state.question_number += 1
     st.session_state.feedback = ""
     st.experimental_rerun()
+
+
 
 

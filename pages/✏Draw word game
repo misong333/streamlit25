@@ -75,3 +75,8 @@ if st.button("🔁 Moving on to the next topic):
     st.session_state.question_number += 1
     st.session_state.feedback = ""
     st.experimental_rerun()
+
+
+streamlit run draw_word_quiz.py
+pip install streamlit streamlit-drawable-canvas
+
